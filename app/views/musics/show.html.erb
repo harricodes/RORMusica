@@ -1,5 +1,9 @@
 <p id="notice"><%= notice %></p>
 
+<div class="card sidee">
+<p>
+  <img src="<%= @music.image %>" />
+</p>
 <p>
   <strong>Title:</strong>
   <%= @music.title %>
@@ -10,15 +14,8 @@
   <%= @music.description %>
 </p>
 
-<p>
-  <strong>Image:</strong>
-  <%= @music.image %>
-</p>
-
-<p>
-  <strong>Audio:</strong>
-  <%= @music.audio %>
-</p>
 
 <%= link_to 'Edit', edit_music_path(@music) %> |
 <%= link_to 'Back', musics_path %>
+</div>
+

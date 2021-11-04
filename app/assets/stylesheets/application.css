@@ -11470,3 +11470,11 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 .benbutton{
   border-radius: 30px;
 }
+
+.sidee{
+  padding: 10px;
+  width: 470px;
+}
+.inl{
+  display: inline-block;
+}
